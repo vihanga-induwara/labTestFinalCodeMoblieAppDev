@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">induwara</string>
+    <string name="google_maps_key">AIzaSyDDDIViLSNarj1MRgGeeggUtb96tLGi8Wc</string> <!-- API key -->
+</resources>

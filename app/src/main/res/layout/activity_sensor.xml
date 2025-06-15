@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/background"
+    android:gravity="center">
+
+    <!-- Temperature Display -->
+    <TextView
+        android:id="@+id/tempText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temperature: -- °C"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="24dp"
+        android:gravity="center" />
+
+    <!-- App Logo -->
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:contentDescription="App Logo"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"/>
+
+    <!-- Status Display -->
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: Normal"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Temperature Indicator -->
+    <TextView
+        android:id="@+id/temperatureIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All systems normal"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:gravity="center"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
